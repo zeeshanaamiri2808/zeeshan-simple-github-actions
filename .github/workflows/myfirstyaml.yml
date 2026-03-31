@@ -5,6 +5,6 @@ jobs:
    runs-on: ubuntu-latest
    name: Run a shell command and print some text
    steps:
-    -name: echo a sting
-     run: echo "Hello, Welcome to Agentic DevSecOps"
+    - name: echo a sting
+      run: echo "Hello, Welcome to Agentic DevSecOps"
 
